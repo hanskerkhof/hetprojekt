@@ -1,0 +1,27 @@
+*.class
+aws.json
+sftp.json
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# NPM repo #
+node_modules
+
+# Bower repo #
+bower_components
+
+# Temp folders #
+.tmp
+.sass-cache
+.DS_Store
+
+# Distribution files #
+target
+npm-debug.log
+dist
+
+# IDE and editor #
+.idea

@@ -1,0 +1,23 @@
+{
+  "name": "hetprojekt",
+  "description": "",
+  "main": "bower.json",
+  "authors": [
+    "Hans Kerkhof <hans@netmatic.nl>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.4.3",
+    "angular-soundmanager2": "^0.5.6"
+  }
+}

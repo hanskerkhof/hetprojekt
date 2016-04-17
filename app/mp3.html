@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>Het Projekt Mp3</title>
+    <style type="text/css">
+        <!--
+        .style9 {
+            font-family: "Times New Roman", Times, serif
+        }
+
+        .style12 {
+            color: #FFFFFF
+        }
+
+        -->
+    </style>
+</head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="pom.css"/>
+
+<style type="text/css">
+    <!--
+    .style6 {
+        color: #FFFF00
+    }
+
+    .style7 {
+        color: #FF9900
+    }
+
+    -->
+
+    .seekBase {
+        height: 30px;
+        width: 90%;
+        border: 1px solid #cccccc;
+    }
+
+    .seekLoad {
+        height: 30px;
+        width: 0;
+        background-color: #E0EAF1;
+    }
+
+    li {
+        cursor: pointer;
+    }
+
+</style>
+</head>
+
+<body bgcolor="#666699" ng-app="hpApp">
+
+
+<div class="style9" id="wrap">
+    <div id="header"></div>
+    <p align="center">
+        <img src="jpg/kop.jpg" alt="ill title" width="599" height="193"/></p>
+    <h1>
+        <center>
+            <p>&nbsp;</p>
+        </center>
+    </h1>
+    </center>
+    <div id="avmenu">
+        <h1 class="hide">Menu:</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="geschiedenis.html">Geschiedenis</a></li>
+            <li><a href="discografie.html">Discofrafie</a></li>
+            <li><a href="fotos.html">Foto's</a></li>
+            <li><a href="mp3.html"><span class="style6">Mp3</span></a></li>
+            <Li><a href="video.html">Video</a></Li>
+            <Li><a href="posters.html">Posters</a></Li>
+            <li><a href="links.html">Links</a></li>
+
+        </ul>
+
+        <div class="announce">
+            </p>
+            <p><br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p><br/>
+            </p>
+            </p></a></div>
+
+    </div>
+    <div id="extras">
+        <p>
+        </p>
+        <p>
+            <br/>
+        </p><br/>
+        &nbsp;
+        &nbsp;
+        </p>
+    </div>
+
+    <div id="content">
+        <h1><p Align="center"><font color="FFFFFF">Mp3</p>
+        </h1>
+        <br/>
+        <!--Klik op de song die je wilt beluisteren-->
+        Klik op 'Play all' om te luisteren
+
+    </div>
+    <p>
+    <!--<h2>-->
+        <!--01:<a href="mp3/depro.mp3" class="style12">Depro</a><BR>-->
+        <!--02:<a href="mp3/going_strange.mp3" class="style12">Going strange</a><BR>-->
+        <!--03:<a href="mp3/only_buildings.mp3" class="style12">Only buildings</a><BR>-->
+        <!--04:<a href="mp3/black_boxes.mp3" class="style12">Black Boxes</a><BR>-->
+        <!--05:<a href="mp3/leave me alone.mp3" class="style12">Leave me alone</a><BR>-->
+        <!--06:<a href="mp3/clouds in my eyes.mp3" class="style12">Clouds in my eyes</a><BR>-->
+        <!--07:<a href="mp3/why.mp3" class="style12">Why ?</a><BR>-->
+        <!--08:<a href="mp3/tapechant.mp3" class="style12">Tapechant</a><BR>-->
+        <!--09:<a href="mp3/back_to_the_base.mp3" class="style12">Back to the base</a><BR>-->
+        <!--10:<a href="mp3/the_light.mp3" class="style12">The Light</a><BR>-->
+        <!--11:<a href="mp3/orgasm.mp3" class="style12">Orgasm</a> <BR>-->
+        <!--12:<a href="mp3/airport.mp3" class="style12">Airport</a><BR>-->
+        <!--13:<a href="mp3/bad_day.mp3" class="style12">Bad day</a><BR>-->
+        <!--14:<a href="mp3/orgasm nr2.mp3" class="style12">Orgasm nr 2</a><BR/>-->
+        <!--15:<a href="mp3/jesus loves you.mp3" class="style12">Jesus loves you</a><BR>-->
+        <!--16:<a href="mp3/only_buildings_nr2.mp3" class="style12">Only buildings soft version</a><BR>-->
+        <!--17:<a href="mp3/white_man_son.mp3" class="style12">The white man's bitches son</a><BR>-->
+        <!--18:<a href="mp3/children_of_Laos.mp3" class="style12">Children of Laos city</a><BR>-->
+        <!--19:<a href="mp3/rook niet meer.mp3" class="style12">Ik rook niet meer</a><BR>-->
+        <!--20:<a href="mp3/count_yourself.mp3" class="style12">Count yourself lucky</a><BR>-->
+        <!--21:<a href="mp3/this is for u.mp3" class="style12">This is for you</a><BR>-->
+        <!--22:<a href="mp3/nokken.mp3" class="style12">Nokken</a><BR>-->
+    <!--</h2>-->
+
+
+    <div class="container" ng-controller="MainCtrl">
+        <!--<p>-->
+            <!--http://www.digitalaholic.com/how-to-create-music-player-for-angularjs/-->
+        <!--</p>-->
+        <button play-all="songs" my-playlist="playlist">Play all</button>
+        <div class="rowNOP">
+            <div class="col-md-12NOP">
+                <h5>Songs</h5>
+                <ul>
+                    <li ng-repeat="song in songs">
+                            {{$index}} : {{song.title}}
+                        <!--<button music-player data-type="playTrack" data-song="{{ $index }}" all-songs="songs"-->
+                        <!--my-playlist="playlist">{{ song.title }}-->
+                        <!--</button>-->
+                        <!--<button music-player data-type="addToPlaylist" data-song="{{ $index }}" all-songs="songs"-->
+                        <!--my-playlist="playlist">+-->
+                        <!--</button>-->
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr/>
+
+        <div class="rowNOP" style="width: 600px;">
+            <div class="col-md-12NOP">
+                <!-- init soundManager2 player -->
+                <sound-manager></sound-manager>
+
+                <p>
+                    Currently Playing: {{ currentPlaying.title }} ({{ currentPostion }} / {{ currentDuration }})
+                </p>
+
+                <div class="seekBase" seek-track>
+                    <div class="seekLoad" ng-style="{width : ( progress + '%' ) }"></div>
+                </div>
+                <br/>
+                <button play-music>Play</button>
+                -
+                <button pause-music>Pause</button>
+                -
+                <button stop-music>Stop</button>
+                -
+                <button repeat-music>Repeat ({{ repeat }})</button>
+                <br/>
+                <br/>
+                Volume: {{ volume }}
+                -
+                <button music-volume data-type="increase">+</button>
+                -
+                <button music-volume data-type="decrease">-</button>
+                -
+                <button mute-music>Mute ({{ mute }})</button>
+                <br/>
+                <br/>
+                <button prev-track>Prev Track</button>
+                -
+                <button next-track>Next Track</button>
+                -
+                <button clear-playlist>Clear Playlist</button>
+                <br/>
+                <br/>
+                <h5>Playlist</h5>
+                <ul set-playlist>
+                    <li ng-repeat="song in playlist">
+                        <a play-from-playlist data-song="{{song.id}}">{{ song.title }}</a>
+                        -
+                        <a remove-from-playlist data-song="{{song.id}}" data-index="{{$index}}" my-playlist="playlist">
+                            <small>(remove)</small>
+                        </a>
+                        -
+                        <span ng-if="currentPlaying.id == song.id">(current)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        Copyright &copy; Design by RN
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+<script src="bower_components/angular-soundmanager2/dist/angular-soundmanager2.js"></script>
+<script type="application/javascript" src="js/app.js"></script>
+</body>
+</html>
+

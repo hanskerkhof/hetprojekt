@@ -1,0 +1,196 @@
+/* Nature - an open source xhtml/css website layout by Studio-plume.org kty
+(Jan 04, 2007)
+ */
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font:70% Arial, Helvetica, sans-serif;
+    background: #666666 url(file:///J|/Atelierroutesite/images/body_deg.gif) repeat-x
+
+}
+
+
+#wrap {
+    background:#333333;
+    color: #CCCCCC;
+    border:  none;
+    margin: 0 auto;
+    width: 990px;
+}
+
+#header {
+    clear: both;
+    margin: 0px 0em 0px 0em;
+    padding: 0;
+    height: 10px;
+    background-color:  #333333;}
+
+#header h3 {
+    width: 450px;
+    margin: 0px 0px 0px 15px;
+    float: left;
+}
+
+#header p {
+    width: 450px;
+    float: right;
+    text-align: center;
+    color: #666699;
+    margin: 0px 0px 0px 0px;
+    font-size: 0.8em;
+    line-height: 1.3em;
+    height: 35px;}
+
+
+
+#avmenu {
+    clear: left;
+    float: left;
+    width: 150px;
+    margin: 0 0 4px 0;
+    padding: 0;
+    font-size: 1.3em;
+}
+
+#avmenu ul {
+    list-style: none;
+    width: 150px;
+    margin: 0 0 4px 0;
+    padding: 0;
+    font-size: 1.0em;
+}
+
+#avmenu li {
+    margin-bottom: 4px;
+}
+
+#avmenu li a {
+    font-weight: bold;
+    height: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    padding: 0px 0 0 10px;
+    background:#333333;
+    border-left: 1px #000000; }
+
+
+#avmenu li a:hover {
+    background: #333333;
+    color: #666699;
+    border-left: 4px #47381e;
+}
+
+#announce {
+    float: left;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    width: 130px;
+    color:#666699;
+    font-size: 1.0em;
+    background-color: #333333;
+    line-height: 1.9em;
+    height: 2400px;}
+
+#extras {
+    float: right;
+    width: 130px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    font-size: 1.3em;
+    background-color: #333333;
+    line-height: 1.9em;
+    height: 8500px;}
+
+#extras p {
+    margin: 0 0  1.9em 0;
+}
+
+#content {
+    font-size: 1.4em;
+    margin: 0em 160px 20px 160px;
+    padding: 0 10px 0 10px;
+    line-height: 1.6em;
+    text-align: left;
+}
+
+#content h2 {
+    font-size: 1.5em;
+    margin: 0 0 0.5em 0;
+}
+
+#content img {
+    padding: 0px;
+    display:inline;
+}
+
+
+
+h3 {
+    font-size: 1.0em;
+    margin: 0 0 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #A11111;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0a0a0a;
+}
+
+
+#footer {
+    clear: both;
+    margin: 0 auto;
+    padding: 0px 0em 0px 0em;
+    width: 490px;
+    text-align: center;
+    color: #808080;
+    font-size: 0.9em;
+    height: 24px;
+    background:#FFFFE0;
+    border:none;}
+
+#footer a {
+    color: #808080;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    margin: 0px 7px 0px 5px;
+    float: left;
+}
+
+.right {
+    margin: 0px 7px 0px 5px;
+    float: right;
+}
+
+.textright {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
